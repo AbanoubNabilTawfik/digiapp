@@ -1,0 +1,8 @@
+<div *ngFor="let category of categories">
+    <div class="card m-3">
+        <div class="card-body">
+          {{category}}
+          <button class="float-end btn btn-primary" (click)="goToProductItems(category)">View Products</button>
+        </div>
+      </div>
+</div>
